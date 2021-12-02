@@ -1,0 +1,23 @@
+2021-12-01 08:50:04.614  INFO 7804 --- [main] c.z.Z.ZeligStoreOficialApplication       : Starting ZeligStoreOficialApplication using Java 16.0.2 on DESKTOP-C1AIJ0S with PID 7804 (C:\Users\andre\Documents\GitHub\ProyectoIV\ZeligStoreOficial\target\classes started by andre in C:\Users\andre\Documents\GitHub\ProyectoIV\ZeligStoreOficial)
+2021-12-01 08:50:04.624  INFO 7804 --- [main] c.z.Z.ZeligStoreOficialApplication       : No active profile set, falling back to default profiles: default
+2021-12-01 08:50:05.131  INFO 7804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-01 08:50:05.303  INFO 7804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 165 ms. Found 6 JPA repository interfaces.
+2021-12-01 08:50:06.064  INFO 7804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 08:50:06.082  INFO 7804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-01 08:50:06.083  INFO 7804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-12-01 08:50:06.216  INFO 7804 --- [main] o.a.c.c.C.[.[localhost].[/ZeligStore]    : Initializing Spring embedded WebApplicationContext
+2021-12-01 08:50:06.216  INFO 7804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1547 ms
+2021-12-01 08:50:06.414  INFO 7804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-01 08:50:06.969  INFO 7804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-01 08:50:07.046  INFO 7804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-01 08:50:07.118  INFO 7804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-01 08:50:07.341  INFO 7804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-01 08:50:07.469  INFO 7804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-01 08:50:08.203  INFO 7804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-01 08:50:08.211  INFO 7804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-01 08:50:08.579  WARN 7804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-01 08:50:09.011  INFO 7804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ZeligStore'
+2021-12-01 08:50:09.022  INFO 7804 --- [main] c.z.Z.ZeligStoreOficialApplication       : Started ZeligStoreOficialApplication in 4.706 seconds (JVM running for 5.341)
+2021-12-01 08:50:26.273  INFO 7804 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ZeligStore]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-01 08:50:26.274  INFO 7804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-01 08:50:26.274  INFO 7804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
